@@ -3,8 +3,8 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
+  <groupId>com.example.Jenkins_Maven_devops</groupId>
+  <artifactId>Jenkins_Maven_devops</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
@@ -25,7 +25,7 @@
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
+      <url>file:///tmp/Jenkins_Maven_devops-site</url>
     </site>
   </distributionManagement>
 
@@ -112,7 +112,7 @@
         </plugin>
 
         <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <artifactId>Jenkins_Maven_devops-info-reports-plugin</artifactId>
           <version>2.4</version>
         </plugin>
 
@@ -207,10 +207,10 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:kishvard/Jenkins_Maven_devops.git</connection>
+    <developerConnection>scm:git:git@github.com:kishvard/Jenkins_Maven_devops.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>http://github.com/kishvard/Jenkins_Maven_devops</url>
   </scm>
 
   <prerequisites>
